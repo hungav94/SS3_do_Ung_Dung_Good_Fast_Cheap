@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="checkBox" type="checkbox" onclick="check()">
+<script>
+    let checkBox = document.getElementById('checkBox');
+    checkBox.checked = true;
+
+    if (checkBox.checked == true) {
+        checkBox.checked = false;
+    }
+
+    // function check() {
+    //     checkBox.checked = false;
+    // }
+</script>
+</body>
+</html>
